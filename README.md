@@ -13,7 +13,7 @@ Running in MATLAB 2020b
    - Byte_Order: Byte endianness, 0: Big-endian, 1: Little-endian
 
 Example:
-CCSDS_Near_Loss_Encode("imagePath", "outputDir", 512, 512, 5, 0, 0, 12, 1);
+CCSDS_Near_Loss_Encode("imagePath.dat", "outputDir.dat", 512, 512, 5, 0, 0, 12, 1);
 
 2.CCSDS_Near_Loss_Decode.p
  Input parameters:
@@ -25,7 +25,7 @@ CCSDS_Near_Loss_Encode("imagePath", "outputDir", 512, 512, 5, 0, 0, 12, 1);
    - near: Peak Absolute Error(PAE) (integer) 
    - large_d: Bit depth, 12, 14, or 16
 Example:
-CCSDS_Near_Loss_Decode("input_code", "output_image", 512, 512, 5, 0,12);
+CCSDS_Near_Loss_Decode("input_code.dat", "output_image.dat", 512, 512, 5, 0,12);
 
  Fixed parameters (not user-specified):
    -- large_r: 64
