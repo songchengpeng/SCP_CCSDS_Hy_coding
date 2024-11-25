@@ -39,3 +39,4 @@ CCSDS_Near_Loss_Decode("input_code", "output_image", 512, 512, 5, 0,12);
    -- gamma_0: 1
    -- large_p: 4
    -- large_theta: 0
+% For detailed explanations of the parameters, refer to the original standard CCSDS-123.0-B-2.
