@@ -24,8 +24,10 @@ CCSDS_Near_Loss_Encode("imagePath.dat", "outputDir.dat", 512, 512, 5, 0, 0, 12, 
    - Nz: Number of spectral bands (integer)
    - near: Peak Absolute Error(PAE) (integer) 
    - large_d: Bit depth, 12, 14, or 16
+
 Example:
 CCSDS_Near_Loss_Decode("input_code.dat", "output_image.dat", 512, 512, 5, 0,12);
+
 
  Fixed parameters (not user-specified):
    -- large_r: 64
@@ -39,4 +41,5 @@ CCSDS_Near_Loss_Decode("input_code.dat", "output_image.dat", 512, 512, 5, 0,12);
    -- gamma_0: 1
    -- large_p: 4
    -- large_theta: 0
+
 % For detailed explanations of the parameters, refer to the original standard CCSDS-123.0-B-2.
