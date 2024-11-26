@@ -1,3 +1,5 @@
+#Reducing the Complexity of CCSDS 123.0_B_2 Hybrid Entropy Coding
+
 Running in MATLAB 2022b
 
 1.CCSDS_Near_Loss_Encode.p
